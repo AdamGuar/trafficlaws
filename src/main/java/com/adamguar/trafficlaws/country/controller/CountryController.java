@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.adamguar.trafficlaws.country.model.CountryData;
 import com.adamguar.trafficlaws.country.model.CountryResponseModel;
-import com.adamguar.trafficlaws.country.service.ICountryDataService;
+import com.adamguar.trafficlaws.country.service.CountryDataService;
 
 @RestController
 @RequestMapping("country")
 public class CountryController {
 
-    private ICountryDataService countryDataService;
+    private CountryDataService countryDataService;
 
     @Autowired
-    public CountryController(ICountryDataService countryDataService) {
+    public CountryController(CountryDataService countryDataService) {
         this.countryDataService = countryDataService;
     }
 
