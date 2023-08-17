@@ -12,13 +12,13 @@ import com.adamguar.trafficlaws.country.repository.CountryRepository;
 import com.adamguar.trafficlaws.country.repository.pojo.Country;
 
 @Service
-public class CountryDataService implements ICountryDataService{
+public class DBCountryDataService implements CountryDataService{
 
     private CountryRepository countryRepository;
     private CountryDataBuilder countryDataBuilder;
 
     @Autowired
-    public CountryDataService(CountryRepository countryRepository, CountryDataBuilder countryDataBuilder){
+    public DBCountryDataService(CountryRepository countryRepository, CountryDataBuilder countryDataBuilder){
         this.countryRepository = countryRepository;
         this.countryDataBuilder = countryDataBuilder;
     }

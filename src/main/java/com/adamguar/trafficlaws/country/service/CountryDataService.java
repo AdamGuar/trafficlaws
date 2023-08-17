@@ -4,6 +4,6 @@ import java.util.List;
 
 import com.adamguar.trafficlaws.country.model.CountryData;
 
-public interface ICountryDataService {
+public interface CountryDataService {
     public List<CountryData> getCountryDataByISOCode(String iscoCode);
 }
