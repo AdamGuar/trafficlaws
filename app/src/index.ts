@@ -1,3 +1,5 @@
+import './app.css';
+
 function init(): void {
     const button = document.querySelector("#testButton");
     button?.addEventListener("click", testSubmitHandler);
