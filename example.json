@@ -1,0 +1,78 @@
+{
+    "code": 200,
+    "message": "OK",
+    "items": [
+      {
+        "isoCode": "GR",
+        "plateCode": "GR",
+        "name": "Greece",
+        "trafficLaws": [
+          {
+            "name": "speedLimitMotorway",
+            "displayName": "Speed limit on motorway (km/h)",
+            "value": "130"
+          },
+          {
+            "name": "speedLimitDualCarriageway",
+            "displayName": "Speed limit on dual carriageway (km/h)",
+            "value": "--"
+          },
+          {
+            "name": "speedLimitSingleCarriageway",
+            "displayName": "Speed limit on single carriageway (km/h)",
+            "value": "90"
+          },
+          {
+            "name": "speedLimitUrban",
+            "displayName": "Speed limit in urban area",
+            "value": "50"
+          },
+          {
+            "name": "alcoholLvl",
+            "displayName": "Permitted alcohol level (%)",
+            "value": "0.05"
+          },
+          {
+            "name": "seatbeltRequired",
+            "displayName": "Seatbelt required",
+            "value": "All"
+          },
+          {
+            "name": "minimunChildAgeFrontSeat",
+            "displayName": "Minimum child age (front seat)",
+            "value": "12"
+          },
+          {
+            "name": "triangleRequired",
+            "displayName": "Triangle required",
+            "value": "Yes"
+          },
+          {
+            "name": "firstAidKitRequired",
+            "displayName": "First aid required",
+            "value": "Yes"
+          },
+          {
+            "name": "fireExtinguisherRequired",
+            "displayName": "Fire extinguisher required",
+            "value": "Yes"
+          },
+          {
+            "name": "spareLightBuldRequired",
+            "displayName": "Spare bulb required",
+            "value": "No"
+          },
+          {
+            "name": "minimumDriversAge",
+            "displayName": "Minimum driver's age",
+            "value": "18"
+          },
+          {
+            "name": "towRopeRequired",
+            "displayName": "Tow rope required",
+            "value": "Yes"
+          }
+        ]
+      }
+    ]
+  }
